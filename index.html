@@ -66,7 +66,7 @@
   h1 .em{color:var(--accent)}
   h2{font-size:clamp(28px,4vw,40px);font-weight:600}
   h3{font-size:18px;font-weight:600;margin:0 0 8px}
-  .lead{margin-top:28px;max-width:640px;color:var(--muted);font-size:18px}
+  .lead{margin-top:28px;color:var(--muted);font-size:18px}
 
   /* Hero */
   .hero{position:relative;overflow:hidden}
@@ -82,7 +82,7 @@
 
   /* Competencies */
   .sec{padding:96px 0}
-  .head-block{max-width:640px;margin-bottom:56px}
+  .head-block{margin-bottom:56px}
   .grid{
     display:grid;grid-template-columns:1fr;
     background:var(--line);gap:1px;border:1px solid var(--line);
@@ -163,9 +163,9 @@
     <p class="label">$ whoami</p>
     <h1>Embedded software,<br><span class="em">crafted with rigor.</span></h1>
     <p class="lead">
-      Kvantex is a small team of embedded engineers with experience from projects for
+      Kvantex is a small team of embedded engineers with experience from&nbsp;projects for
       <span style="color:#e5e5e5">leading automotive companies</span>.
-      We design and ship firmware, Linux systems and smart devices — from the silicon up.
+      <br>We design&nbsp;and&nbsp;ship firmware, Linux systems&nbsp;and&nbsp;smart devices.
     </p>
     <div class="cta">
       <a class="btn btn-primary" href="#contact">Start a project</a>
@@ -185,32 +185,38 @@
       <div class="card">
         <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"/></svg>
         <h3>Embedded Software</h3>
-        <p>Bare-metal, RTOS and Linux-based firmware for ARM Cortex-M / A, automotive-grade microcontrollers and custom silicon. C, C++ and modern Rust.</p>
+        <p>Bare-metal, RTOS and Linux-based firmware for&nbsp;ARM Cortex-M&nbsp;/&nbsp;A, automotive-grade microcontrollers and&nbsp;custom silicon.</p>
+        <p>We like to use C, C++ and&nbsp;modern Rust.</p>
       </div>
       <div class="card">
         <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
         <h3>Linux, in depth</h3>
-        <p>Yocto / NixOS images, kernel drivers, device tree, networking, secure boot. We treat the userspace and the kernel as one continuous problem.</p>
+        <p>Yocto images or NixOS systems, kernel drivers, device trees, networking, secure boot.</p>
+        <p>We treat the userspace and the kernel as&nbsp;one continuous problem.</p>
       </div>
       <div class="card">
         <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
         <h3>Smart Devices &amp; IoT</h3>
-        <p>End-to-end smart-device development — from the silicon and the radio up through the gateway, the cloud and the ecosystem around it.</p>
+        <p>End-to-end smart-device development.</p>
+        <p>From the silicon and&nbsp;the&nbsp;readio up&nbsp;through the&nbsp;gateway, the&nbsp;cloud and&nbsp;the&nbsp;ecosystem around&nbsp;it.</p>
       </div>
       <div class="card">
         <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1Z"/></svg>
-        <h3>Process Automation</h3>
-        <p>Replacing repetitive manual work on the shop floor and in the back office with reliable, observable software. Less clipboards, more uptime.</p>
-      </div>
-      <div class="card">
-        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg>
-        <h3>Automotive Background</h3>
-        <p>Our engineers have shipped production software for leading companies in the automotive industry. We bring that rigor — without the overhead.</p>
+        <h3>Automation of processes</h3>
+        <p>Replacing repetitive manual work on the shop floor or&nbsp;in&nbsp;the&nbsp;back office with reliable, observable software.</p>
+        <p>Less clipboards, more uptime.</p>
       </div>
       <div class="card">
         <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"/><polyline points="22 6 12 13 2 6"/></svg>
         <h3>Modern Tooling</h3>
-        <p>Git-first workflows, CI/CD for embedded, hardware-in-the-loop testing, code review culture. The boring fundamentals, done well.</p>
+        <p>Git-first workflows, CI/CD for embedded, hardware-in-the-loop testing, code review culture.</p>
+        <p>The boring fundamentals, done well.</p>
+      </div>
+      <div class="card">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg>
+        <h3>Automotive Background</h3>
+        <p>Our engineers have shipped production software for leading companies in&nbsp;the&nbsp;automotive industry.</p>
+        <p>We bring that rigor&nbsp;—&nbsp;without the overhead.</p>
       </div>
     </div>
   </div>
@@ -222,7 +228,7 @@
       <p class="label">// about</p>
       <h2>Built by engineers who shipped for automotive leaders.</h2>
       <p style="margin-top:24px">We spent years writing production software for one of the most demanding industries on earth. Now we bring that same discipline — code review, traceability, real testing — to teams that need to move fast without breaking the device in the field.</p>
-      <p style="margin-top:16px">We’re equally comfortable rescuing a stalled C codebase or starting fresh with modern Rust. Whatever serves the product.</p>
+      <p style="margin-top:16px">We’re equally comfortable rescuing a stalled C codebase<br>or starting fresh with modern Rust. Whatever serves the product.</p>
     </div>
     <div class="term">
       <div class="bar">
